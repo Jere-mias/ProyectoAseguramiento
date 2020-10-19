@@ -4,36 +4,12 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-
-
-
-
-
-  <meta charset="UTF-8">
-  <title>CodePen - LogIn Form</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'><link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-
- 
-
-<!-- partial:index.partial.html -->
-<div id="login-button">
-
-  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
-  
-  </img>
-  
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-4 col-md-offset-2" >
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+            <center>  <div class="panel-heading">Register</div></center>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
                         {{ csrf_field() }}
@@ -105,6 +81,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+      
+
 @endsection

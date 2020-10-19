@@ -31,7 +31,7 @@
 </div>
 
 <div id="container">
-  <h1>Log In</h1>
+  <h1>Tengo una Cuenta</h1>
   <span class="close-btn">
     <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
   </span>
